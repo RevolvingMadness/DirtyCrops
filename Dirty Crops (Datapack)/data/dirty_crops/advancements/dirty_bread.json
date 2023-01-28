@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dirty_crops:dirty_bread"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dirty_crops:wheat/bread/craft_bread"
+    }
+}

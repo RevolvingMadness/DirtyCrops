@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:potato"},PickupDelay:10s},sort=nearest] run data merge entity @s {Item:{id:"minecraft:rotten_flesh",tag:{display:{Name:'{"text":"Dirty Potato","italic":false}'},CustomModelData:3}}}

@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:wheat"},PickupDelay:10s},sort=nearest] run data merge entity @s {Item:{id:"minecraft:command_block",tag:{display:{Name:'{"text":"Dirty Wheat","italic":false,"color":"white"}'},CustomModelData:1}}}
